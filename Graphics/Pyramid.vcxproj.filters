@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_OpenGL libs">
+      <UniqueIdentifier>{dee47e53-a1ad-47ff-ba48-bf6779b0f6f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Math Libraries">
+      <UniqueIdentifier>{b6ba0ccc-3d15-49bc-90d7-a4ddb0394923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering Framework">
+      <UniqueIdentifier>{38820b53-9c1b-43c2-92e5-d1ba5cafb78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pyramid">
+      <UniqueIdentifier>{52419cc0-b4ba-474c-8be3-19061ccd08ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics Object">
+      <UniqueIdentifier>{f5319a34-5caf-4bf6-856c-2823b047ee05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cube">
+      <UniqueIdentifier>{c42ff640-b2cb-4a2d-82a0-227360c4719f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sphere">
+      <UniqueIdentifier>{d355ab0c-31ae-41cf-881e-d851a217f8de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Torus">
+      <UniqueIdentifier>{5977e4c7-a65b-478e-bd58-715e4a551ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_FileSystem Libraries">
+      <UniqueIdentifier>{9f8b5751-3a1a-463a-9cd2-2d6b19c33938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{0a408304-fdaf-438e-b7d2-bc7490012e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Space Frigate">
+      <UniqueIdentifier>{46565a2c-36bb-4de4-becb-0d24e0925b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{0f51cc49-e9ec-44dc-adcc-ddc69b764b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="War Bear">
+      <UniqueIdentifier>{56e63058-14b3-402b-a48d-a612b507fec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Astro Boy">
+      <UniqueIdentifier>{814e9715-4912-4c41-8fa2-97cb21912d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{7900db7a-0187-4d19-880d-79d75badc774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_PCSTree Libraries">
+      <UniqueIdentifier>{772e32d8-fe39-4019-bae7-6df264e63bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{04851fd7-a745-45b6-99d4-b6724fa2b59b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalState.cpp">
+      <Filter>Rendering Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>Rendering Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderScene.cpp">
+      <Filter>Rendering Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderState.cpp">
+      <Filter>Rendering Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pyramid.cpp">
+      <Filter>Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="PyramidObject.cpp">
+      <Filter>Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Graphics Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeObject.cpp">
+      <Filter>Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereObject.cpp">
+      <Filter>Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Torus.cpp">
+      <Filter>Torus</Filter>
+    </ClCompile>
+    <ClCompile Include="TorusObject.cpp">
+      <Filter>Torus</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceFrigate.cpp">
+      <Filter>Space Frigate</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceFrigateObject.cpp">
+      <Filter>Space Frigate</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelObject.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="WarBear.cpp">
+      <Filter>War Bear</Filter>
+    </ClCompile>
+    <ClCompile Include="WarBearObject.cpp">
+      <Filter>War Bear</Filter>
+    </ClCompile>
+    <ClCompile Include="AstroBoy.cpp">
+      <Filter>Astro Boy</Filter>
+    </ClCompile>
+    <ClCompile Include="AstroBoyObject.cpp">
+      <Filter>Astro Boy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Time\Time.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Time\Timer.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Time\Timer_win32.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Anim.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Anim2Bone.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimHumanoid.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimDude.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\OpenGL\Glut\lib\freeglut_static.lib">
+      <Filter>_OpenGL libs</Filter>
+    </Library>
+    <Library Include="..\OpenGL\GLTools\lib\gltools.lib">
+      <Filter>_OpenGL libs</Filter>
+    </Library>
+    <Library Include="..\Debug\FileSystemDebug.lib">
+      <Filter>_FileSystem Libraries</Filter>
+    </Library>
+    <Library Include="..\Release\FileSystemRelease.lib">
+      <Filter>_FileSystem Libraries</Filter>
+    </Library>
+    <Library Include="..\Debug\MathEngineDebug.lib">
+      <Filter>_Math Libraries</Filter>
+    </Library>
+    <Library Include="..\Release\MathEngineRelease.lib">
+      <Filter>_Math Libraries</Filter>
+    </Library>
+    <Library Include="..\PCSTree System\PCSTreeStaticDebug.lib">
+      <Filter>_PCSTree Libraries</Filter>
+    </Library>
+    <Library Include="..\PCSTree System\PCSTreeStaticRelease.lib">
+      <Filter>_PCSTree Libraries</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GlobalState.h">
+      <Filter>Rendering Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>Rendering Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderScene.h">
+      <Filter>Rendering Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderState.h">
+      <Filter>Rendering Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="pyramid.h">
+      <Filter>Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLWrapper.h">
+      <Filter>_OpenGL libs</Filter>
+    </ClInclude>
+    <ClInclude Include="PyramidObject.h">
+      <Filter>Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>Graphics Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject.h">
+      <Filter>Graphics Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeObject.h">
+      <Filter>Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereObject.h">
+      <Filter>Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Torus.h">
+      <Filter>Torus</Filter>
+    </ClInclude>
+    <ClInclude Include="TorusObject.h">
+      <Filter>Torus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FileSystem\File.h">
+      <Filter>_FileSystem Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceFrigate.h">
+      <Filter>Space Frigate</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceFrigateObject.h">
+      <Filter>Space Frigate</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelObject.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="WarBear.h">
+      <Filter>War Bear</Filter>
+    </ClInclude>
+    <ClInclude Include="WarBearObject.h">
+      <Filter>War Bear</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedDataWrapper.h">
+      <Filter>Rendering Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="AstroBoy.h">
+      <Filter>Astro Boy</Filter>
+    </ClInclude>
+    <ClInclude Include="AstroBoyObject.h">
+      <Filter>Astro Boy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathEngine\Constants.h">
+      <Filter>_Math Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathEngine\Enum.h">
+      <Filter>_Math Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathEngine\MathApp.h">
+      <Filter>_Math Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathEngine\MathEngine.h">
+      <Filter>_Math Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathEngine\Matrix.h">
+      <Filter>_Math Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathEngine\Quat.h">
+      <Filter>_Math Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathEngine\QuatApp.h">
+      <Filter>_Math Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathEngine\Util.h">
+      <Filter>_Math Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathEngine\Vect.h">
+      <Filter>_Math Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathEngine\VectApp.h">
+      <Filter>_Math Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Time\Time.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Time\Timer.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PCSTree System\PCSNode.h">
+      <Filter>_PCSTree Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PCSTree System\PCSTree.h">
+      <Filter>_PCSTree Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Anim.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
