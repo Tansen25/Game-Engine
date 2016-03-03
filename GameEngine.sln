@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graphics", "Graphics\Pyramid.vcxproj", "{614F84F4-5DBF-47AE-B74D-B4184D22ADA2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8AAD6928-2AC4-469E-AE14-0C03046E0B39} = {8AAD6928-2AC4-469E-AE14-0C03046E0B39}
+		{5122B556-8547-48D7-ACF6-1466C0180FF4} = {5122B556-8547-48D7-ACF6-1466C0180FF4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileSystem", "FileSystem\FileSystem.vcxproj", "{8AAD6928-2AC4-469E-AE14-0C03046E0B39}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathEngine", "MathEngine\MathEngine.vcxproj", "{5122B556-8547-48D7-ACF6-1466C0180FF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{614F84F4-5DBF-47AE-B74D-B4184D22ADA2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{614F84F4-5DBF-47AE-B74D-B4184D22ADA2}.Debug|Win32.Build.0 = Debug|Win32
+		{614F84F4-5DBF-47AE-B74D-B4184D22ADA2}.Release|Win32.ActiveCfg = Release|Win32
+		{614F84F4-5DBF-47AE-B74D-B4184D22ADA2}.Release|Win32.Build.0 = Release|Win32
+		{8AAD6928-2AC4-469E-AE14-0C03046E0B39}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8AAD6928-2AC4-469E-AE14-0C03046E0B39}.Debug|Win32.Build.0 = Debug|Win32
+		{8AAD6928-2AC4-469E-AE14-0C03046E0B39}.Release|Win32.ActiveCfg = Release|Win32
+		{8AAD6928-2AC4-469E-AE14-0C03046E0B39}.Release|Win32.Build.0 = Release|Win32
+		{5122B556-8547-48D7-ACF6-1466C0180FF4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5122B556-8547-48D7-ACF6-1466C0180FF4}.Debug|Win32.Build.0 = Debug|Win32
+		{5122B556-8547-48D7-ACF6-1466C0180FF4}.Release|Win32.ActiveCfg = Release|Win32
+		{5122B556-8547-48D7-ACF6-1466C0180FF4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
